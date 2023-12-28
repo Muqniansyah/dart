@@ -44,7 +44,8 @@ void main() {
   print(umur);
 
   // double atau desimal
-  double doniUmur = 17.9;
+  // double bisa bilagan bulat dan desimal
+  double doniUmur = 17.6;
   doniUmur = 40;
   print(doniUmur);
 
