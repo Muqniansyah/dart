@@ -14,6 +14,7 @@ double penjumlahan(nilaiA, nilaiB) {
   return hasil;
 }
 
+// contoh string fungsi
 String nama(depan, belakang) {
   var orang = depan + belakang;
   return orang;

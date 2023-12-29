@@ -1,6 +1,6 @@
 // collections di dart ada 3 jenis, yaitu:
 // List, Set, Map
-// LIST => berfokus pada urutan
+// LIST => berfokus pada urutan dan menggunakan index
 void main() {
   List<String> nama = ["panjul", "joni"];
   print(nama);
