@@ -1,0 +1,25 @@
+class Hewan {
+  late String kategori; // this kategori
+  late String nama; // this nama
+  late int berat; // this berat
+
+  // positional argumen
+  Hewan(this.kategori, this.nama, this.berat);
+}
+
+void main() {
+  // cara penggunaan positional argument
+  var hewan1 = Hewan("reptil", "ular", 20);
+
+  print(hewan1.nama);
+  print('kategori :  ${hewan1.kategori}');
+  print('berat :  ${hewan1.berat} KG');
+
+  print("-------------------");
+
+  var hewan2 = Hewan("mamalia", "kambing", 40);
+
+  print(hewan2.nama);
+  print('kategori :  ${hewan2.kategori}');
+  print('berat :  ${hewan2.berat} KG');
+}
